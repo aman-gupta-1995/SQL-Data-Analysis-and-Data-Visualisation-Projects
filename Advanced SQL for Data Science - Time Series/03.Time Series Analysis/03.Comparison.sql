@@ -5,7 +5,7 @@
 WITH avg_daily_temp AS( 
 	SELECT   
 		DATE_TRUNC('day', event_time) AS event_day,
-		AVG(temp_celcius) AS avg_temp 
+		AVG(temp_celcius) AS avg_temp  
 		FROM time_series.location_temp 
 		GROUP BY DATE_TRUNC('day', event_time)
 )

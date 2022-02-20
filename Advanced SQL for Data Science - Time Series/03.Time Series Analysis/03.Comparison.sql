@@ -15,3 +15,4 @@ SELECT
 	 FROM avg_daily_temp d2
 	 WHERE d2.event_day = d1.event_day - INTERVAL '1' day)
 FROM avg_daily_temp d1;
+ 

@@ -6,7 +6,7 @@ LIMIT 5;
 SELECT * FROM company_regions  
 LIMIT 5; 
   
-SELECT * FROM staff 
+SELECT * FROM staff  
 LIMIT 5;
 
 /* How many total employees in this company */

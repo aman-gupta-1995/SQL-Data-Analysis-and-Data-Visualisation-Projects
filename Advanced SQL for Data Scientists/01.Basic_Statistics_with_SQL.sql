@@ -101,7 +101,7 @@ ORDER BY 2 ASC;
 /* we will make 3 buckets to see the salary earning status for Health Department */
 CREATE VIEW health_dept_earning_status
 AS 
-	SELECT 
+	SELECT  
 		CASE
 			WHEN salary >= 100000 THEN 'high earner'
 			WHEN salary >= 50000 AND salary < 100000 THEN 'middle earner'

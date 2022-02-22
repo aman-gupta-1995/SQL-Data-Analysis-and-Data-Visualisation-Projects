@@ -81,7 +81,7 @@ ORDER BY 4 DESC;
 /* Data Interpretation: based on the findings, Health department has the highest spread out. So let's find out more */
 SELECT 
 	department, 
-	MIN(salary) As Min_Salary, 
+	MIN(salary) As Min_Salary,  
 	MAX(salary) AS Max_Salary, 
 	ROUND(AVG(salary),2) AS Average_Salary,
 	ROUND(VAR_POP(salary),2) AS Variance_Salary,

@@ -11,7 +11,7 @@ VALUES(
     'dummy address',
     'dummy city',
     'CA',
-    DEFAULT
+    DEFAULT 
 );
 
 /*********************************************/

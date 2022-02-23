@@ -3,7 +3,7 @@
 /*********************************************/
 INSERT INTO customers
 VALUES(
-	DEFAULT,
+	DEFAULT, 
     'John',
     'Smith',
     '1990-01-01',      

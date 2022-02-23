@@ -6,7 +6,7 @@ VALUES(
 	DEFAULT,
     'John',
     'Smith',
-    '1990-01-01',     
+    '1990-01-01',      
     NULL,
     'dummy address',
     'dummy city',
@@ -29,7 +29,7 @@ CREATE TABLE orders_achieved AS
 TRUNCATE orders_achieved;
 
 
-INSERT INTO orders_achieved
+INSERT INTO orders_achieved 
 	SELECT *
     FROM orders
     WHERE order_date < '2019-01-01'; 

@@ -6,7 +6,7 @@ VALUES(
 	DEFAULT,
     'John',
     'Smith',
-    '1990-01-01', 
+    '1990-01-01',  
     NULL,
     'dummy address',
     'dummy city',

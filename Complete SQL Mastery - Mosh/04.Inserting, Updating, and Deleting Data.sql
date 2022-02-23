@@ -30,7 +30,7 @@ TRUNCATE orders_achieved;
 
 
 INSERT INTO orders_achieved 
-	SELECT *
+	SELECT * 
     FROM orders
     WHERE order_date < '2019-01-01'; 
     

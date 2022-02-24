@@ -3,7 +3,7 @@
 /**********************************************************************/
 
 /**********************************************************************/
-/* Credit to Schema : https://github.com/AndrejPHP/w3schools-database */
+/* Credit to Schema : https://github.com/AndrejPHP/w3schools-database */ 
 /**********************************************************************/   
 /* Run w3schools.sql to set up database, tables and data*/  
  

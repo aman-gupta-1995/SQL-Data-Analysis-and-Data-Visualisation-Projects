@@ -10,7 +10,7 @@
 /*
 ----Schema----
 Customers (CustomerID, CustomerName, ContactName, Address, City, PostalCode, Country)
-Categories (CategoryID,CategoryName, Description)
+Categories (CategoryID,CategoryName, Description
 Employees (EmployeeID, LastName, FirstName, BirthDate, Photo, Notes)
 OrderDetails(OrderDetailID, OrderID, ProductID, Quantity)
 Orders (OrderID, CustomerID, EmployeeID, OrderDate, ShipperID) 

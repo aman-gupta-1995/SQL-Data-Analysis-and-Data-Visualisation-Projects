@@ -86,7 +86,7 @@ FROM orders o
 JOIN employees e
 ON o.EmployeeID = e.EmployeeID
 WHERE o.OrderID > 10400;
-
+ 
 /************ Expert Level ************/
 
 /*1. Select the most expensive product*/

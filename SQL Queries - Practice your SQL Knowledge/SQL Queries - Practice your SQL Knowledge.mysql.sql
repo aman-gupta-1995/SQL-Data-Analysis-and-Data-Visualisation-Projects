@@ -13,7 +13,7 @@ Customers (CustomerID, CustomerName, ContactName, Address, City, PostalCode, Cou
 Categories (CategoryID,CategoryName, Description)
 Employees (EmployeeID, LastName, FirstName, BirthDate, Photo, Notes)
 OrderDetails(OrderDetailID, OrderID, ProductID, Quantity)
-Orders (OrderID, CustomerID, EmployeeID, OrderDate, ShipperID)
+Orders (OrderID, CustomerID, EmployeeID, OrderDate, ShipperID) 
 Products(ProductID, ProductName, SupplierID, CategoryID, Unit, Price)
 Shippers (ShipperID, ShipperName, Phone)
 */

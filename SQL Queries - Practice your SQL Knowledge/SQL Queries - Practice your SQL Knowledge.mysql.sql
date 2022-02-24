@@ -6,7 +6,7 @@
 /* Credit to Schema : https://github.com/AndrejPHP/w3schools-database */      
 /**********************************************************************/        
 /* Run w3schools.sql to set up database, tables and data*/   
-
+ 
 /*
 ----Schema----
 Customers (CustomerID, CustomerName, ContactName, Address, City, PostalCode, Country)

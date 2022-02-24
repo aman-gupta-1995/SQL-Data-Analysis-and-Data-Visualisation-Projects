@@ -32,7 +32,7 @@ FROM orders o
 JOIN employees e
 ON o.EmployeeID = e.EmployeeID;
  
-/*3. Select customers who did not placed any order yet*/
+/*3. Select customers who did not placed any order yet*/ 
 SELECT c.CustomerID, c.CustomerName, o.OrderID
 FROM customers c
 LEFT JOIN orders o

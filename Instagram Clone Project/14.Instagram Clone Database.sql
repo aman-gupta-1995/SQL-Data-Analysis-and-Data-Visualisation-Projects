@@ -8,7 +8,7 @@ CREATE TABLE users(
 	username VARCHAR(255) NOT NULL, 
 	created_at TIMESTAMP DEFAULT NOW()
 );
-
+ 
 /*Photos*/
 CREATE TABLE photos(
 	id INT AUTO_INCREMENT PRIMARY KEY,

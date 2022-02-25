@@ -6,7 +6,7 @@ USE ig_clone;
 CREATE TABLE users(
 	id INT AUTO_INCREMENT UNIQUE PRIMARY KEY
 	username VARCHAR(255) NOT NULL,
-	created_at TIMESTAMP DEFAULT NOW()  
+	created_at TIMESTAMP DEFAULT NOW() 
 );
  
 /*Photos*/

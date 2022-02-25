@@ -30,7 +30,7 @@ CREATE TABLE comments(
 );
 
 /*Likes*/
-CREATE TABLE likes(
+CREATE TABLE likes( 
 	user_id INT NOT NULL,
 	photo_id INT NOT NULL,
 	created_at TIMESTAMP DEFAULT NOW(),

@@ -2,7 +2,7 @@ CREATE DATABASE ig_clone;
  
 USE ig_clone;
 
-/*Users*/
+/*Users*/ 
 CREATE TABLE users( 
 	id INT AUTO_INCREMENT UNIQUE PRIMARY KEY  
 	username VARCHAR(255) NOT NULL,

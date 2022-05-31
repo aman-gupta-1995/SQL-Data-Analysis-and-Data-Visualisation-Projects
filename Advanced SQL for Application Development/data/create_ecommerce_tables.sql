@@ -28,7 +28,7 @@ CREATE TABLE orders
     order_id integer NOT NULL,
     customer_id integer NOT NULL,
     order_date date NOT NULL,
-    CONSTRAINT orders_pkey PRIMARY KEY (order_id)
+    CONSTRAINT orders_pkey PRIMARY KEY (order_id) 
 )
 
 TABLESPACE pg_default;

@@ -5,7 +5,7 @@ FROM staff
 ORDER BY department; 
 
 
-/********* Reformatting Characters Data *********/
+/********* Reformatting Characters Data *********/ 
 
 SELECT DISTINCT(UPPER(department)) 
 FROM staff

@@ -6,7 +6,7 @@ EXPLAIN won't actually execute query. Instead it try to make estimation.
 EXPLAIN SELECT * FROM staff;
  
 /* get details time to build the execution plan and explaination */ 
-EXPLAIN ANALYZE SELECT * FROM staff; 
+EXPLAIN ANALYZE SELECT * FROM staff;  
 
 /* now width is 7, which is lower than previous one*/
 -- NOTE: if we are working with large amount data, we can use rows and width as a guide to understand the amount of data returned.

@@ -2,7 +2,7 @@
 DROP TABLE IF EXISTS customers;
 
 CREATE TABLE customers
-(  
+(   
     customer_id integer NOT NULL,  
     first_name character varying(50),
     last_name character varying(50) ,  

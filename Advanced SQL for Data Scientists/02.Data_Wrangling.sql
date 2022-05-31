@@ -23,7 +23,7 @@ SELECT
 	job_title || ' - ' || department AS title_with_department 
 FROM staff;
 
-/*** Trim ***/
+/*** Trim ***/ 
 SELECT
 	TRIM('    data sciece rocks !    ');
 

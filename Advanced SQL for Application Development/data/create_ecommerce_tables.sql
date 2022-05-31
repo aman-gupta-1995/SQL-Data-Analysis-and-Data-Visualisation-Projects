@@ -6,7 +6,7 @@ CREATE TABLE customers
     customer_id integer NOT NULL,  
     first_name character varying(50),
     last_name character varying(50) ,  
-    email character varying(50),
+    email character varying(50), 
     address character varying(100),
     city character varying(50),
     state_province character varying(10),

@@ -9,7 +9,7 @@ insert into company_divisions values ('Automotive','Auto & Hardware');
 insert into company_divisions values ('Baby','Domestic');
 insert into company_divisions values ('Beauty','Domestic');
 insert into company_divisions values ('Clothing','Domestic');
-insert into company_divisions values ('Computers','Electronic Equipment');
+insert into company_divisions values ('Computers','Electronic Equipment'); 
 insert into company_divisions values ('Electronics','Electronic Equipment');
 insert into company_divisions values ('Games','Domestic');
 insert into company_divisions values ('Garden','Outdoors & Garden');

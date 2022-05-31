@@ -27,7 +27,7 @@ FROM staff;
 SELECT
 	TRIM('    data sciece rocks !    ');
 
--- with trim is 19 characters
+-- with trim is 19 characters 
 SELECT
 	LENGTH(TRIM('    data sciece rocks !    '));
 	

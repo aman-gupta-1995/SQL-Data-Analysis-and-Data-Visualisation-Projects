@@ -28,7 +28,7 @@ WHERE salary > 75000;
 
 --------------------- Indexes --------------------
 
-/* create index on salary column*/
+/* create index on salary column*/ 
 CREATE INDEX idx_staff_salary ON staff(salary);
 
 

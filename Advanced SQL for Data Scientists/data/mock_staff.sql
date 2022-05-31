@@ -29,7 +29,7 @@ insert into company_divisions values ('Toys','Games & Sports');
 
 
 create table company_regions (
-   region_id int,
+   region_id int, 
    company_regions varchar(20),
    country varchar(20),
    primary key (region_id)

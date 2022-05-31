@@ -2,7 +2,7 @@
 
 SELECT DISTINCT(department)
 FROM staff
-ORDER BY department;
+ORDER BY department; 
 
 
 /********* Reformatting Characters Data *********/

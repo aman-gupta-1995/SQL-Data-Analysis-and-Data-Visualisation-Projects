@@ -24,7 +24,7 @@ WHERE salary > 75000;
 EXPLAIN ANALYZE SELECT *
 FROM staff
 WHERE salary > 75000;
-
+ 
 
 --------------------- Indexes --------------------
 

@@ -7,7 +7,7 @@ CREATE TABLE customers
     first_name character varying(50),
     last_name character varying(50) ,     
     email character varying(50),  
-    address character varying(100),
+    address character varying(100), 
     city character varying(50),
     state_province character varying(10),
     CONSTRAINT customers_pkey PRIMARY KEY (customer_id)

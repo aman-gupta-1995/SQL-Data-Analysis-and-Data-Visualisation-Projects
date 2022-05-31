@@ -1,6 +1,6 @@
 
 create table company_divisions (
-    department varchar(100),
+    department varchar(100), 
     company_division varchar(100),
     primary key (department)
   ); 

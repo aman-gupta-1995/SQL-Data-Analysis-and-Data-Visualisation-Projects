@@ -3,7 +3,7 @@ create table company_divisions (
     department varchar(100),
     company_division varchar(100),
     primary key (department)
-  );
+  ); 
 
 insert into company_divisions values ('Automotive','Auto & Hardware');
 insert into company_divisions values ('Baby','Domestic');

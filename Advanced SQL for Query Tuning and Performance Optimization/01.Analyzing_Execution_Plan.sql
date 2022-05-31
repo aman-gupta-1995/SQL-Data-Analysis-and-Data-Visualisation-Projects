@@ -4,7 +4,7 @@
 EXPLAIN won't actually execute query. Instead it try to make estimation.
 */
 EXPLAIN SELECT * FROM staff;
-  
+   
 /* get details time to build the execution plan and explaination */ 
 EXPLAIN ANALYZE SELECT * FROM staff;  
 

@@ -132,7 +132,7 @@ JOIN film f ON f.film_id = i.film_id
 GROUP BY i.film_id, LEFT(r.rental_date,7)
 ORDER BY 1, 2, 3;
 
-/* Number of Rentals in Comedy , Sports and Family */
+/* Number of Rentals in Comedy , Sports and Family */ 
 SELECT c.name, COUNT(c.name) AS "Number of Rentals"
 FROM film f
 JOIN film_category fc ON fc.film_id = f.film_id

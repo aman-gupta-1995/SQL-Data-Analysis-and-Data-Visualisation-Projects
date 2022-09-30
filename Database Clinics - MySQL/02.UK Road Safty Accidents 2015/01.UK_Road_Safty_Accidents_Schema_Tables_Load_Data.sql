@@ -2,7 +2,7 @@ CREATE SCHEMA accidents;
  
 USE accidents;
 
-/* -------------------------------- */
+/* -------------------------------- */ 
 /* Create Tables */
 CREATE TABLE accident(
 	accident_index VARCHAR(13),

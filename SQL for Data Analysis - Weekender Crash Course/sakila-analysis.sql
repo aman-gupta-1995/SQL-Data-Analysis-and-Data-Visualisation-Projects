@@ -7,7 +7,7 @@
 /* Email Campaigns for customers of Store 2 
 First, Last name and Email address of customers from Store 2*/    
 SELECT first_name, last_name,email       
-FROM customer 
+FROM customer  
 WHERE store_id = 2;   
  
 /* movie with rental rate of 0.99$*/

@@ -2,7 +2,7 @@
 SELECT id,IF(critic_rating > 6, 'Good', 'Bad') AS score
 FROM critic_rating;
  
-SELECT id,
+SELECT id, 
 	CASE
 		WHEN critic_rating > 8 THEN 'Good'
 		WHEN critic_rating > 6 THEN 'Decent'

@@ -2,7 +2,7 @@
 /* SQL for Data Analysis - Weekender Crash Course  */
 /***************************************************/
 
-/*Before you run these queries, make sure to create Sakila DB and import the related data first*/
+/*Before you run these queries, make sure to create Sakila DB and import the relate d data first*/
   
 /* Email Campaigns for customers of Store 2 
 First, Last name and Email address of customers from Store 2*/    

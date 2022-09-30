@@ -8,7 +8,7 @@
 First, Last name and Email address of customers from Store 2*/
 SELECT first_name, last_name,email 
 FROM customer
-WHERE store_id = 2;
+WHERE store_id = 2; 
 
 /* movie with rental rate of 0.99$*/
 SELECT COUNT(*) FROM film

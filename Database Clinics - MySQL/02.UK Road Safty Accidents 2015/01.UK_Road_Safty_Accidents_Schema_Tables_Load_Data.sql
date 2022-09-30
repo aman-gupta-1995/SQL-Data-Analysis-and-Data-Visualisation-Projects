@@ -1,6 +1,6 @@
 CREATE SCHEMA accidents;
  
-USE accidents;
+USE accidents; 
 
 /* -------------------------------- */ 
 /* Create Tables */

@@ -1,5 +1,5 @@
 CREATE SCHEMA accidents;
-
+ 
 USE accidents;
 
 /* -------------------------------- */

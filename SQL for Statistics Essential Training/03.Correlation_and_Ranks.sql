@@ -4,7 +4,7 @@
 /* we can see that there is high correlation between revenue and units sold, which make sense.*/
 SELECT CORR(units_sold, revenue)   
 FROM store_sales;    
-               
+                
  
 /* What about correlation between unit sold and number of employees on shift? */  
 /* As per the result, there is a positive correlation of 0.5593 but not as strong as between units sold and revenue */

@@ -57,6 +57,6 @@ ORDER BY month_of_year;
 /* we can see that May through July and December are the months which have most number of employee on shifts*/
 SELECT 
 	month_of_year,
-	MODE() WITHIN GROUP(ORDER BY employee_shifts) AS most_frequent_employee_shifts
+	MODE() WITHIN GROUP(ORDER BY employee_shifts) AS most_frequent_employee_shifts 
 FROM store_sales
 GROUP BY month_of_year;

@@ -26,7 +26,7 @@ FROM store_sales;
 
 /*********** Rows Number ***********/
 /* 
-Row Number is a window function which operates on ordered set. It is added as a new column to the result.
+Row Number is a window function which operates on ordered set. It is added as a new column to the  result.
 It is very useful when we want to assign row order based on the ordered list.
 */
 

@@ -32,7 +32,7 @@ It is very useful when we want to assign row order based on the ordered list.
 
 /* We want to add a row number based on the units sold */
 SELECT 
-	ROW_NUMBER() OVER(ORDER BY units_sold),
+	ROW_NUMBER() OVER(ORDER BY units_sold), 
 	sale_date,
 	month_of_year,
 	units_sold 

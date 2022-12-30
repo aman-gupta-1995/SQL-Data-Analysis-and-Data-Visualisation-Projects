@@ -35,7 +35,7 @@ SELECT
 	ROW_NUMBER() OVER(ORDER BY units_sold),
 	sale_date,
 	month_of_year,
-	units_sold
+	units_sold 
 FROM store_sales;
 
 

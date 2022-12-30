@@ -60,3 +60,4 @@ SELECT
 	MODE() WITHIN GROUP(ORDER BY employee_shifts) AS most_frequent_employee_shifts 
 FROM store_sales
 GROUP BY month_of_year;
+ 

@@ -2,7 +2,7 @@
 
 /* check the correlation between revenue and unit sold */
 /* we can see that there is high correlation between revenue and units sold, which make sense.*/
-SELECT CORR(units_sold, revenue)
+SELECT CORR(units_sold, revenue) 
 FROM store_sales;
       
  

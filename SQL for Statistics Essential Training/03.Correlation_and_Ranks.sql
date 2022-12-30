@@ -61,3 +61,4 @@ SELECT
 FROM store_sales
 GROUP BY month_of_year;
  
+ 
